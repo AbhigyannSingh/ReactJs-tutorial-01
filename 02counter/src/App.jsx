@@ -12,7 +12,9 @@ let [counter,setCounter] =useState(15)
   const addValue = () => {
     console.log("value added" , counter);
     // counter +1;
-    setCounter(counter +1)
+    setCounter(prevcounter => prevcounter+1)
+    setCounter(prevcounter => prevcounter+1)
+    setCounter(prevcounter => prevcounter+1)
   }
   const decValue = ()=>{
     if(counter <=0)
