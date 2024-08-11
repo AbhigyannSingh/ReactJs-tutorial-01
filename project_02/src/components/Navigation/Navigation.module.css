@@ -1,11 +1,11 @@
-.navigation{
+nav {
     padding: 0 8px;
     display: flex;
     height: 72px;
     justify-content: space-between;
 }
 
-.navigation ul {
+ ul {
     display: flex;
     
     list-style: none;
