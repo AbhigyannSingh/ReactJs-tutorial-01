@@ -1,0 +1,34 @@
+.Box{
+    height: 72px;
+    width: 72px;
+    border: 1px solid black;
+    display: grid;
+    place-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: white;
+    cursor: pointer;
+}
+
+.Box:hover{
+    background-color: black;
+    color: white;
+}
+
+.Box.selected {
+    background-color: black; /* Color when selected */
+    color: white;
+  }
+
+.mainn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    gap:20px;
+}
+
+.mainn p{
+    font-size: 18px;
+    font-weight: 500;
+}
